@@ -1,4 +1,6 @@
+"use client"
 import { Check, Copy, Database, Lock, Server, ArrowRight } from "lucide-react"
+import { useRef, useState } from "react"
 
 const points = [
   {
@@ -21,6 +23,30 @@ const points = [
 const stack = ["Next.js", "better-auth", "PostgreSQL", "Prisma", "Tailwind CSS", "Docker"]
 
 export function SelfHost() {
+  const [copied, setCopied] = useState(false)
+  const codeRef = useRef<HTMLElement>(null)
+
+  const handleCopy = async () => {
+    const text = codeRef.current?.textContent || ""
+    const lines = text.split("\n")
+    const cleaned = lines
+      .filter((line) => {
+        if (line === "") return true
+        if (line.startsWith("#")) return false
+        if (line.startsWith("$ ")) return true
+        return false
+      })
+      .map((line) => {
+        if (line.startsWith("$ ")) return line.slice(2)
+        return line
+      })
+      .join("\n")
+      .trim()
+    await navigator.clipboard.writeText(cleaned)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 1500)
+  }
+
   return (
     <section id="self-host" className="mx-auto max-w-6xl px-4 py-24 sm:px-6">
       <div className="grid items-center gap-12 lg:grid-cols-2">
@@ -69,12 +95,19 @@ export function SelfHost() {
               <span className="size-3 rounded-full bg-muted-foreground/30" />
             </div>
             <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
-              <Copy className="size-3.5" />
+              {copied ? (
+                <Check className="size-3.5 text-green-500" />
+              ) : (
+                <Copy
+                  className="size-3.5 cursor-pointer hover:text-foreground transition-colors"
+                  onClick={handleCopy}
+                />
+              )}
               bash
             </span>
           </div>
           <pre className="overflow-x-auto p-5 font-mono text-sm leading-7">
-            <code>
+            <code ref={codeRef}>
               <span className="text-muted-foreground"># 1. Clone &amp; configure</span>
               {"\n"}
               <span className="text-primary">$</span> git clone github.com/breadddevv/feedbase
