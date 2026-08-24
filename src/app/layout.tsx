@@ -21,31 +21,31 @@ const instrumentSerif = Caveat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://feedbase.breaddevv.cc'),
+  metadataBase: new URL('https://usercue.app'),
   title: {
-    default: "Feedbase",
-    template: "%s | Feedbase"
+    default: "UserCue",
+    template: "%s | UserCue"
   },
   icons: [{ rel: 'icon', url: '/fb.png' }],
   description: "Listen, learn, and grow with your users. The open-source feedback platform built for modern product teams.",
   openGraph: {
-    title: 'Feedbase',
+    title: 'UserCue',
     description: 'Open source feedback management platform for product teams.',
-    url: 'https://feedbase.breaddevv.cc',
-    siteName: 'Feedbase',
+    url: 'https://usercue.app',
+    siteName: 'UserCue',
     images: [
       {
         url: '/landing.png',
         width: 1920,
         height: 1080,
-        alt: 'Feedbase Landing Page',
+        alt: 'UserCue Landing Page',
       },
     ],
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Feedbase',
+    title: 'UserCue',
     description: 'Open source feedback management platform for product teams.',
     images: ['/landing.png'],
   },

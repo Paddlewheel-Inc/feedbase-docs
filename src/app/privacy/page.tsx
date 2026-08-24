@@ -41,21 +41,21 @@ const sections: Section[] = [
   {
     title: "Overview",
     blocks: [
-      { type: "text", content: "Feedbase is open-source, self-hosted feedback management software. Because you run it on your own infrastructure, you are the data controller — we have no access to anything stored on your instance." },
-      { type: "text", content: "This policy describes what data Feedbase processes locally, what limited data we collect through the waitlist, and how it is handled." },
+      { type: "text", content: "UserCue is open-source, self-hosted feedback management software. Because you run it on your own infrastructure, you are the data controller — we have no access to anything stored on your instance." },
+      { type: "text", content: "This policy describes what data UserCue processes locally, what limited data we collect through the waitlist, and how it is handled." },
     ],
   },
   {
     title: "Data you control",
     blocks: [
-      { type: "text", content: "All data on your Feedbase instance — user accounts, feedback posts, votes, comments, and attachments — lives in your own database on your own servers." },
-      { type: "note", content: "Feedbase maintainers have zero access to this data. You decide how it is stored, backed up, and deleted." },
+      { type: "text", content: "All data on your UserCue instance — user accounts, feedback posts, votes, comments, and attachments — lives in your own database on your own servers." },
+      { type: "note", content: "UserCue maintainers have zero access to this data. You decide how it is stored, backed up, and deleted." },
     ],
   },
   {
-    title: "Data Feedbase may process",
+    title: "Data UserCue may process",
     blocks: [
-      { type: "text", content: "Feedbase processes the following data locally on your instance:" },
+      { type: "text", content: "UserCue processes the following data locally on your instance:" },
       {
         type: "list",
         items: [
@@ -65,49 +65,49 @@ const sections: Section[] = [
           "Integration config — if you configure Discord, Slack, GitHub, or email integrations, tokens and settings are stored in your database.",
         ],
       },
-      { type: "tip", content: "None of this data is transmitted to Feedbase maintainers or any third party by default." },
+      { type: "tip", content: "None of this data is transmitted to UserCue maintainers or any third party by default." },
     ],
   },
   {
     title: "Waitlist & email — Resend",
     changed: true,
     blocks: [
-      { type: "text", content: "If you join the Feedbase waitlist, your email address is collected and processed by Resend (resend.com), our transactional email provider. This is the only data we collect outside of your self-hosted instance." },
+      { type: "text", content: "If you join the UserCue waitlist, your email address is collected and processed by Resend (resend.com), our transactional email provider. This is the only data we collect outside of your self-hosted instance." },
       {
         type: "list",
         items: [
           "Data collected: your email address only — no name, IP address, or additional fields.",
-          "Purpose: to send a confirmation email and notify you when Feedbase is available.",
+          "Purpose: to send a confirmation email and notify you when UserCue is available.",
           "Storage: your email is stored in a Resend Audience (contact list) on Resend's infrastructure.",
           "Resend is GDPR-compliant and SOC 2 Type II certified.",
           "Your email is never sold, rented, or shared with any other third party.",
-          "You may be contacted by Feedbase only in relation to product updates and availability.",
+          "You may be contacted by UserCue only in relation to product updates and availability.",
         ],
       },
       { type: "note", content: "Resend acts as a data processor on our behalf. Their privacy policy is available at resend.com/privacy." },
-      { type: "tip", content: "To be removed from the waitlist and have your email deleted from Resend, email data@breaddevv.cc at any time. We will action your request within 72 hours." },
+      { type: "tip", content: "To be removed from the waitlist and have your email deleted from Resend, email data@usercue.app at any time. We will action your request within 72 hours." },
       { type: "warn", content: "By submitting your email to the waitlist, you consent to it being processed by Resend as described above. If you are in the EU, this processing is based on your explicit consent (GDPR Article 6(1)(a))." },
     ],
   },
   {
     title: "Telemetry & update checks",
     blocks: [
-      { type: "text", content: "Feedbase may make outbound requests to the GitHub public API to check for software updates. These requests include only your current version number — no personally identifiable information is sent." },
+      { type: "text", content: "UserCue may make outbound requests to the GitHub public API to check for software updates. These requests include only your current version number — no personally identifiable information is sent." },
       { type: "note", content: "All telemetry is opt-in only. No usage analytics, crash reports, or behavioural data is collected unless you explicitly enable it in your instance config." },
     ],
   },
   {
     title: "Third-party integrations",
     blocks: [
-      { type: "text", content: "Feedbase supports optional integrations with Discord, Slack, GitHub, and email providers. When configured, data may flow to those services under their own privacy policies." },
+      { type: "text", content: "UserCue supports optional integrations with Discord, Slack, GitHub, and email providers. When configured, data may flow to those services under their own privacy policies." },
       { type: "warn", content: "You are responsible for ensuring your use of third-party integrations complies with applicable laws and those services' terms." },
     ],
   },
   {
     title: "Cookies & sessions",
     blocks: [
-      { type: "text", content: "Feedbase uses session cookies strictly to keep users authenticated. These are necessary for the application to function and are not used for tracking or advertising." },
-      { type: "tip", content: "No third-party analytics or advertising cookies are set by Feedbase." },
+      { type: "text", content: "UserCue uses session cookies strictly to keep users authenticated. These are necessary for the application to function and are not used for tracking or advertising." },
+      { type: "tip", content: "No third-party analytics or advertising cookies are set by UserCue." },
     ],
   },
   {
@@ -115,7 +115,7 @@ const sections: Section[] = [
     changed: true,
     blocks: [
       { type: "text", content: "As the instance operator, you have full control over all user data — you can view, export, or delete it directly from your database at any time." },
-      { type: "text", content: "If you are a user of someone else's Feedbase instance, please contact that operator regarding your data rights." },
+      { type: "text", content: "If you are a user of someone else's UserCue instance, please contact that operator regarding your data rights." },
       { type: "note", content: "For users in the European Union, rights including access, rectification, erasure, and portability apply under GDPR. For California residents, rights under the CCPA apply, including the right to know, delete, and opt out of sale (we do not sell data)." },
       {
         type: "list",
@@ -126,15 +126,15 @@ const sections: Section[] = [
           "Right to lodge a complaint — EU users may contact their local supervisory authority.",
         ],
       },
-      { type: "tip", content: "To exercise any of these rights, email data@breaddevv.cc. We will respond within 30 days as required by GDPR." },
+      { type: "tip", content: "To exercise any of these rights, email data@usercue.app. We will respond within 30 days as required by GDPR." },
     ],
   },
   {
     title: "Data retention & deletion",
     blocks: [
-      { type: "text", content: "Instance data is retained for as long as your instance is running and you choose to keep it. There are no external retention schedules imposed by Feedbase." },
-      { type: "text", content: "Waitlist emails stored in Resend are retained until you request deletion or until Feedbase launches and the waitlist is closed, at which point all contacts will be deleted." },
-      { type: "tip", content: "You may request deletion of your waitlist email at any time by emailing data@breaddevv.cc." },
+      { type: "text", content: "Instance data is retained for as long as your instance is running and you choose to keep it. There are no external retention schedules imposed by UserCue." },
+      { type: "text", content: "Waitlist emails stored in Resend are retained until you request deletion or until UserCue launches and the waitlist is closed, at which point all contacts will be deleted." },
+      { type: "tip", content: "You may request deletion of your waitlist email at any time by emailing data@usercue.app." },
     ],
   },
   {
@@ -150,20 +150,20 @@ const sections: Section[] = [
     blocks: [
       { type: "text", content: "We take reasonable technical measures to protect the software from known vulnerabilities. Security releases are published on the GitHub repository." },
       { type: "warn", content: "You are responsible for keeping your instance up to date. Running outdated versions may expose your instance to known vulnerabilities." },
-      { type: "danger", content: "Never expose your database, environment variables, or admin credentials publicly. Feedbase maintainers will never ask for these." },
+      { type: "danger", content: "Never expose your database, environment variables, or admin credentials publicly. UserCue maintainers will never ask for these." },
     ],
   },
   {
     title: "Changes to this policy",
     blocks: [
-      { type: "text", content: "We may update this policy from time to time. Changes will be reflected in the Feedbase repository and noted in the changelog." },
+      { type: "text", content: "We may update this policy from time to time. Changes will be reflected in the UserCue repository and noted in the changelog." },
       { type: "note", content: "Continued use of the software after changes constitutes acceptance of the updated policy." },
     ],
   },
   {
     title: "Contact",
     blocks: [
-      { type: "text", content: "For questions about this privacy policy, email hello@breaddevv.cc, open an issue on the Feedbase GitHub repository, or reach out on Discord." },
+      { type: "text", content: "For questions about this privacy policy, email hello@usercue.app, open an issue on the UserCue GitHub repository, or reach out on Discord." },
     ],
   },
 ];
@@ -280,7 +280,7 @@ export default function PrivacyPage() {
           className="mb-6 p-4 rounded-2xl border border-primary/20 bg-primary/5"
         >
           <p className="text-sm text-foreground/80 leading-relaxed">
-            <span className="font-semibold text-foreground">Feedbase is self-hosted.</span>{" "}
+            <span className="font-semibold text-foreground">UserCue is self-hosted.</span>{" "}
             You run it on your own infrastructure — which means you own all your data. The only data we collect directly is your email address if you join the waitlist, processed via Resend.
           </p>
         </motion.div>
@@ -351,7 +351,7 @@ export default function PrivacyPage() {
           transition={{ duration: 0.4 }}
           className="mt-12 pt-8 border-t border-border flex items-center justify-between"
         >
-          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} Feedbase. MIT licensed.</p>
+          <p className="text-xs text-muted-foreground">© {new Date().getFullYear()} UserCue. MIT licensed.</p>
           <Link
             href="/terms"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors"

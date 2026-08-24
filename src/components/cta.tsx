@@ -21,11 +21,11 @@ export function Cta() {
           </h2>
           <p className="mt-4 text-pretty text-muted-foreground">
             Give your users a real say in what you build next — without handing
-            their data to a SaaS. Deploy Feedbase in minutes.
+            their data to a SaaS. Deploy UserCue in minutes.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <a
-              href="https://github.com/breadddevv/feedbase"
+              href="https://github.com/paddlewheel-inc/usercue"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl border border-border bg-transparent px-5 py-3 cursor-pointer text-sm font-semibold transition-colors hover:bg-white/10"
