@@ -26,12 +26,15 @@ export function SiteHeader() {
         transition={{ duration: 0.4, ease: "easeOut" }}
         className={`fixed top-0 left-0 right-0 z-50 ${!open ? "border-b" : ""} border-border/60 bg-background/80 backdrop-blur-xl`}
       >
-        <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
-          <a href="/" aria-label="Feedbase home" className="shrink-0">
+        <div className="relative mx-auto flex h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
+          <a href="/" aria-label="UserCue home" className="shrink-0">
             <Image src={fb} alt="FB" width={2} height={2} className="w-12 h-9" />
           </a>
 
-          <nav className="hidden items-center gap-8 md:flex" aria-label="Main">
+          <nav
+            className="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-8 md:flex"
+            aria-label="Main"
+          >
             {navLinks.map((link) => (
               <a
                 key={link.label}
@@ -53,7 +56,7 @@ export function SiteHeader() {
               <FaDiscord className="size-4" />
             </a>
             <a
-              href="https://github.com/Paddlewheel-Inc/feedbase/"
+              href="https://github.com/Paddlewheel-Inc/usercue/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -61,7 +64,7 @@ export function SiteHeader() {
               <TbBrandGithubFilled className="size-4" />
             </a>
             <a
-              href="https://github.com/Paddlewheel-Inc/feedbase/"
+              href="https://github.com/Paddlewheel-Inc/usercue/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-primary/90 px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"
@@ -117,7 +120,7 @@ export function SiteHeader() {
                   Discord Server
                 </a>
                 <a
-                  href="https://github.com/Paddlewheel-Inc/feedbase/"
+                  href="https://github.com/Paddlewheel-Inc/usercue/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground transition-colors"
@@ -126,7 +129,7 @@ export function SiteHeader() {
                   GitHub
                 </a>
                 <a
-                  href="https://github.com/Paddlewheel-Inc/feedbase/"
+                  href="https://github.com/Paddlewheel-Inc/usercue/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary/90 px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"

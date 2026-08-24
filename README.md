@@ -1,13 +1,13 @@
 <img src="public/banner.png" alt="Alt Text" width="1200"/><br>
-# 🚀 Welcome to Feedbase Docs
+# 🚀 Welcome to UserCue Docs
 
-**Feedbase** is an open-source feedback platform designed specifically for product teams who want to listen, learn, and grow alongside their users.
+**UserCue** is an open-source feedback platform designed specifically for product teams who want to listen, learn, and grow alongside their users.
 
 ---
 
 ## 📖 About this Repository
 
-This repository contains the source code for the **Feedbase Landing Page** and our **official documentation**.
+This repository contains the source code for the **UserCue Landing Page** and our **official documentation**.
 
 > **Note:** We are currently a work in progress! 🚧 We are actively building out our guides and refining our look, so please excuse the dust as we grow.
 
@@ -29,15 +29,15 @@ We love keeping things clean, fast, and accessible. Our docs are powered by:
 We are building out the following sections to help your team succeed:
 
 * [ ] **Getting Started:** Quick installation guide.
-* [ ] **API Reference:** Integrating Feedbase into your product.
+* [ ] **API Reference:** Integrating UserCue into your product.
 * [ ] **Best Practices:** How to manage and categorize user feedback effectively.
-* [ ] **Customization:** Making Feedbase look like *your* brand.
+* [ ] **Customization:** Making UserCue look like *your* brand.
 
 ---
 
 ## 🤝 Contributing
 
-We love community contributions! Whether you’re fixing a typo, improving a guide, or suggesting a new feature, your help makes Feedbase better for everyone.
+We love community contributions! Whether you’re fixing a typo, improving a guide, or suggesting a new feature, your help makes UserCue better for everyone.
 
 1. **Fork the repo.**
 2. **Create a branch:** `git checkout -b feature/cool-new-doc`
@@ -47,9 +47,9 @@ We love community contributions! Whether you’re fixing a typo, improving a gui
 
 ---
 
-## ☕ Built in Portugal with ❤️ — Feedbase Team 🇵🇹
+## ☕ Built in Portugal with ❤️ — UserCue Team 🇵🇹
 
-*Found a bug or want to suggest a feature?* Please [open an issue](https://www.google.com/search?q=https://github.com/breadddevv/feedbase/issues) and let us know!
+*Found a bug or want to suggest a feature?* Please [open an issue](https://www.google.com/search?q=https://github.com/Paddlewheel-inc/usercue/issues) and let us know!
 
 ---
 

@@ -52,7 +52,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "By deploying, installing, or using Feedbase, you agree to these terms. If you are using Feedbase on behalf of an organisation, you represent that you have the authority to bind that organisation to these terms.",
+          "By deploying, installing, or using UserCue, you agree to these terms. If you are using UserCue on behalf of an organisation, you represent that you have the authority to bind that organisation to these terms.",
       },
       {
         type: "warn",
@@ -67,12 +67,12 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "Feedbase is released under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions of that license.",
+          "UserCue is released under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the conditions of that license.",
       },
       {
         type: "tip",
         content:
-          "The full license text is available in the LICENSE file in the Feedbase repository.",
+          "The full license text is available in the LICENSE file in the UserCue repository.",
       },
     ],
   },
@@ -82,7 +82,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "Feedbase is software you run on your own infrastructure. As the operator, you are solely responsible for:",
+          "UserCue is software you run on your own infrastructure. As the operator, you are solely responsible for:",
       },
       {
         type: "list",
@@ -96,14 +96,14 @@ const sections: Section[] = [
       {
         type: "note",
         content:
-          "Feedbase maintainers have no access to your instance or its data at any time.",
+          "UserCue maintainers have no access to your instance or its data at any time.",
       },
     ],
   },
   {
     title: "Acceptable use",
     blocks: [
-      { type: "text", content: "You may not use Feedbase to:" },
+      { type: "text", content: "You may not use UserCue to:" },
       {
         type: "list",
         items: [
@@ -117,7 +117,7 @@ const sections: Section[] = [
       {
         type: "warn",
         content:
-          "You are solely responsible for ensuring your use of Feedbase complies with all applicable laws in your jurisdiction.",
+          "You are solely responsible for ensuring your use of UserCue complies with all applicable laws in your jurisdiction.",
       },
     ],
   },
@@ -127,7 +127,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "Feedbase provides a feedback platform where users can submit posts, comments, and other content.",
+          "UserCue provides a feedback platform where users can submit posts, comments, and other content.",
       },
       {
         type: "note",
@@ -137,7 +137,7 @@ const sections: Section[] = [
       {
         type: "tip",
         content:
-          "Feedbase maintainers have no responsibility for content submitted to self-hosted instances.",
+          "UserCue maintainers have no responsibility for content submitted to self-hosted instances.",
       },
     ],
   },
@@ -147,7 +147,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "By submitting a pull request, issue, or other contribution to the Feedbase repository, you agree that your contribution may be incorporated into the project and distributed under the MIT License.",
+          "By submitting a pull request, issue, or other contribution to the UserCue repository, you agree that your contribution may be incorporated into the project and distributed under the MIT License.",
       },
       {
         type: "note",
@@ -162,12 +162,12 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "Feedbase supports optional integrations with Discord, Slack, GitHub, and email providers. Your use of these services is governed by their respective terms of service and privacy policies.",
+          "UserCue supports optional integrations with Discord, Slack, GitHub, and email providers. Your use of these services is governed by their respective terms of service and privacy policies.",
       },
       {
         type: "warn",
         content:
-          "Feedbase maintainers are not responsible for the availability, accuracy, conduct, or data handling of any third-party service.",
+          "UserCue maintainers are not responsible for the availability, accuracy, conduct, or data handling of any third-party service.",
       },
       {
         type: "tip",
@@ -182,12 +182,12 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          'Feedbase is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.',
+          'UserCue is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.',
       },
       {
         type: "danger",
         content:
-          "In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from, out of, or in connection with the software or the use or other dealings in the software.",
+          "In no event shall the authors or copyright holders be liable for any claim, damages, or other liability arising from, out of, or in connection with the software or the use or other dealings in the software."
       },
     ],
   },
@@ -197,12 +197,12 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "To the fullest extent permitted by law, Feedbase maintainers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of revenue, or loss of business, arising out of your use or inability to use the software.",
+          "To the fullest extent permitted by law, UserCue maintainers shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including but not limited to loss of data, loss of revenue, or loss of business, arising out of your use or inability to use the software.",
       },
       {
         type: "danger",
         content:
-          "You assume full responsibility for any damages, data loss, or legal consequences arising from running a self-hosted instance of Feedbase.",
+          "You assume full responsibility for any damages, data loss, or legal consequences arising from running a self-hosted instance of UserCue.",
       },
     ],
   },
@@ -212,17 +212,17 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "Security patches and updates are published in the Feedbase GitHub repository. You are responsible for applying them in a timely manner.",
+          "Security patches and updates are published in the UserCue GitHub repository. You are responsible for applying them in a timely manner.",
       },
       {
         type: "warn",
         content:
-          "Running an outdated version of Feedbase may expose your instance and your users' data to known vulnerabilities.",
+          "Running an outdated version of UserCue may expose your instance and your users' data to known vulnerabilities.",
       },
       {
         type: "danger",
         content:
-          "Never expose your .env file, database credentials, or admin panel to the public internet. Feedbase maintainers will never ask for these.",
+          "Never expose your .env file, database credentials, or admin panel to the public internet. UserCue maintainers will never ask for these.",
       },
     ],
   },
@@ -232,7 +232,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "When you join the Feedbase waitlist, your email address is stored in a contact list managed by Resend (resend.com), our transactional email provider. This is used solely to send you a confirmation email and notify you when Feedbase becomes available.",
+          "When you join the UserCue waitlist, your email address is stored in a contact list managed by Resend (resend.com), our transactional email provider. This is used solely to send you a confirmation email and notify you when UserCue becomes available.",
       },
       {
         type: "list",
@@ -246,7 +246,7 @@ const sections: Section[] = [
       {
         type: "tip",
         content:
-          "You can request removal from the waitlist at any time by emailing data@breaddevv.cc — your contact record will be deleted from Resend.",
+          "You can request removal from the waitlist at any time by emailing data@usercue.app — your contact record will be deleted from Resend.",
       },
       {
         type: "warn",
@@ -261,7 +261,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "We may update these terms from time to time. Material changes will be noted in the Feedbase changelog and repository.",
+          "We may update these terms from time to time. Material changes will be noted in the UserCue changelog and repository.",
       },
       {
         type: "note",
@@ -276,7 +276,7 @@ const sections: Section[] = [
       {
         type: "text",
         content:
-          "For questions about these terms, open an issue on the Feedbase GitHub repository or reach out on Discord.",
+          "For questions about these terms, open an issue on the UserCue GitHub repository or reach out on Discord.",
       },
     ],
   },
@@ -415,7 +415,7 @@ export default function TermsPage() {
         >
           <p className="text-sm text-foreground/80 leading-relaxed">
             <span className="font-semibold text-foreground">
-              Feedbase is MIT licensed open-source software.
+              UserCue is MIT licensed open-source software.
             </span>{" "}
             These terms are intentionally plain and minimal. You own your
             instance, your data, and your deployment.
@@ -496,7 +496,7 @@ export default function TermsPage() {
           className="mt-12 pt-8 border-t border-border flex items-center justify-between"
         >
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Feedbase. MIT licensed.
+            © {new Date().getFullYear()} UserCue. MIT licensed.
           </p>
           <Link
             href="/privacy"

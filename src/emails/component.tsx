@@ -69,7 +69,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
       </Head>
 
       <Preview>
-        You're on the Feedbase waitlist — we'll let you know when it's ready
+        You're on the UserCue waitlist — we'll let you know when it's ready
       </Preview>
 
       <Body
@@ -101,14 +101,14 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                 style={{ backgroundColor: "#0d0d0d", padding: "24px 32px" }}
               >
                 <Link
-                  href="https://feedbase.breaddevv.cc"
+                  href="https://usercue.app"
                   style={{ display: "flex", alignItems: "center", textDecoration: "none" }}
                 >
                   <Img
-                    src="https://feedbase.breaddevv.cc/logo.png"
+                    src="https://usercue.app/logo.png"
                     width="34"
                     height="28"
-                    alt="Feedbase"
+                    alt="UserCue"
                     style={{ display: "block", marginRight: "10px" }}
                   />
                   <span
@@ -119,7 +119,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                       letterSpacing: "-0.02em",
                     }}
                   >
-                    Feedbase
+                    UserCue
                   </span>
                 </Link>
               </div>
@@ -177,7 +177,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                 >
                   We'll reach out
                   <br />
-                  when Feedbase opens.
+                  when UserCue opens.
                 </div>
 
                 <Text
@@ -189,7 +189,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                     margin: "0 0 12px",
                   }}
                 >
-                  Feedbase is an open-source, free platform for collecting and
+                  UserCue is an open-source, free platform for collecting and
                   managing user feedback — feature requests, bug reports, and
                   everything in between.
                 </Text>
@@ -294,12 +294,12 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                       }}
                     >
                       Free &amp; open-source, forever. Help others find
-                      Feedbase.
+                      UserCue.
                     </div>
                   </div>
                   <div style={{ flexShrink: 0, marginLeft: "16px" }}>
                     <Link
-                      href="https://github.com/breadddevv/feedbase"
+                      href="https://github.com/paddlewheel-inc/usercue"
                       style={{
                         backgroundColor: brand,
                         color: "#ffffff",
@@ -383,10 +383,10 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                 >
                   Questions?{" "}
                   <Link
-                    href="mailto:hello@breaddevv.cc"
+                    href="mailto:hello@usercue.app"
                     style={{ color: brand, textDecoration: "none" }}
                   >
-                    hello@breaddevv.cc
+                    hello@usercue.app
                   </Link>
                 </Text>
                 <Text
@@ -399,7 +399,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                   }}
                 >
                   <Link
-                    href="https://feedbase.breaddevv.cc/terms"
+                    href="https://usercue.app/terms"
                     className="footer-link"
                     style={{ color: "#a1a1aa", textDecoration: "none" }}
                   >
@@ -407,7 +407,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                   </Link>
                   {" · "}
                   <Link
-                    href="https://feedbase.breaddevv.cc/privacy"
+                    href="https://usercue.app/privacy"
                     className="footer-link"
                     style={{ color: "#a1a1aa", textDecoration: "none" }}
                   >
@@ -415,11 +415,11 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                   </Link>
                   {" · "}
                   <Link
-                    href="https://feedbase.breaddevv.cc"
+                    href="https://usercue.app"
                     className="footer-link"
                     style={{ color: "#a1a1aa", textDecoration: "none" }}
                   >
-                    feedbase.breaddevv.cc
+                    usercue.app
                   </Link>
                 </Text>
               </div>
@@ -436,7 +436,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                 }}
               >
                 You're receiving this because <strong>{email}</strong> joined
-                the Feedbase waitlist.
+                the UserCue waitlist.
               </Text>
               <Text
                 style={{
@@ -447,17 +447,17 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                 }}
               >
                 <Link
-                  href="https://github.com/breadddevv/feedbase"
+                  href="https://github.com/paddlewheel-inc/usercue"
                   style={{ color: "#a1a1aa", textDecoration: "underline" }}
                 >
                   GitHub
                 </Link>
                 {" · "}
                 <Link
-                  href="https://feedbase.breaddevv.cc"
+                  href="https://usercue.app"
                   style={{ color: "#a1a1aa", textDecoration: "underline" }}
                 >
-                  feedbase.breaddevv.cc
+                  usercue.app
                 </Link>
               </Text>
               <Text
@@ -468,7 +468,7 @@ export const WaitlistConfirmation = ({ email }: WaitlistConfirmationProps) => {
                   margin: 0,
                 }}
               >
-                Made with ☕ & 🍀 | Feedbase Team 🇵🇹
+                Made with ☕ & 🍀 | UserCue Team 🇵🇹
               </Text>
             </Section>
           </Container>

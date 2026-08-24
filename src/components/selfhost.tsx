@@ -110,7 +110,7 @@ export function SelfHost() {
             <code ref={codeRef}>
               <span className="text-muted-foreground"># 1. Clone &amp; configure</span>
               {"\n"}
-              <span className="text-primary">$</span> git clone github.com/breadddevv/feedbase
+              <span className="text-primary">$</span> git clone github.com/Paddlewheel-Inc/usercue
               {"\n"}
               <span className="text-primary">$</span> cp .env.example .env
               {"\n\n"}
@@ -128,7 +128,7 @@ export function SelfHost() {
 
       <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
         <a
-          href="https://github.com/Paddlewheel-Inc/feedbase/"
+          href="https://github.com/Paddlewheel-Inc/usercue/"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 rounded-xl bg-primary/90 px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"
@@ -137,7 +137,7 @@ export function SelfHost() {
           <ArrowRight className="size-4" />
         </a>
         <a
-          href="https://github.com/Paddlewheel-Inc/feedbase/"
+          href="https://github.com/Paddlewheel-Inc/usercue/"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 rounded-xl border border-border bg-transparent px-5 py-3 text-sm font-semibold transition-colors hover:bg-white/10"

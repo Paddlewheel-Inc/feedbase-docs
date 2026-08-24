@@ -6,12 +6,12 @@ import { cn } from "@/lib/utils"
 
 const faqs = [
   {
-    q: "Is Feedbase really free?",
-    a: "Yes. Feedbase is MIT licensed and fully open source. There are no paid tiers, seat limits, or feature gates — you host it yourself and use everything.",
+    q: "Is UserCue really free?",
+    a: "Yes. UserCue is MIT licensed and fully open source. There are no paid tiers, seat limits, or feature gates — you host it yourself and use everything.",
   },
   {
     q: "Where is my data stored?",
-    a: "In your own PostgreSQL database. Feedbase never phones home and no third party has access to your users' feedback.",
+    a: "In your own PostgreSQL database. UserCue never phones home and no third party has access to your users' feedback.",
   },
   {
     q: "How do I deploy it?",
@@ -27,14 +27,14 @@ const faqs = [
   },
   {
     q: "Is there a hosted version if I don't want to self-host?",
-    a: "Not currently. Feedbase is built self-host first, so the only requirement is a server and a Postgres database. A managed option may come later, but self-hosting will always stay free.",
+    a: "Not currently. UserCue is built self-host first, so the only requirement is a server and a Postgres database. A managed option may come later, but self-hosting will always stay free.",
   },
   {
     q: "How do roles and permissions work?",
     a: "Roles are set up during first startup with sensible defaults — Owner, Admin, Member and Viewer. After that, you can fully customize them: rename roles, tweak their permissions, and give each one its own icon and color to match your brand.",  },
   {
     q: "Can users sign in with their existing accounts?",
-    a: "Yes, Feedbase supports OAuth providers like GitHub and Google, plus email/password, so you can pick whatever fits your community best.",
+    a: "Yes, UserCue supports OAuth providers like GitHub and Google, plus email/password, so you can pick whatever fits your community best.",
   },
   {
     q: "What kind of support is available?",
