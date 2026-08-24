@@ -53,7 +53,7 @@ export function SiteHeader() {
               <FaDiscord className="size-4" />
             </a>
             <a
-              href="https://github.com/breadddevv/feedbase"
+              href="https://github.com/Paddlewheel-Inc/feedbase/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
@@ -61,7 +61,7 @@ export function SiteHeader() {
               <TbBrandGithubFilled className="size-4" />
             </a>
             <a
-              href="https://github.com/breadddevv/feedbase"
+              href="https://github.com/Paddlewheel-Inc/feedbase/"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-xl bg-primary/90 px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"
@@ -117,7 +117,7 @@ export function SiteHeader() {
                   Discord Server
                 </a>
                 <a
-                  href="https://github.com/breadddevv/feedbase"
+                  href="https://github.com/Paddlewheel-Inc/feedbase/"
                   target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-2 rounded-md px-3 py-2 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground transition-colors"
@@ -126,7 +126,7 @@ export function SiteHeader() {
                   GitHub
                 </a>
                 <a
-                  href="https://github.com/breadddevv/feedbase"
+                  href="https://github.com/Paddlewheel-Inc/feedbase/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary/90 px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"

@@ -1,11 +1,10 @@
-import { MailIcon } from "lucide-react"
 import { TbBrandGithubFilled } from "react-icons/tb";
 
 interface CtaProps {
   waitlistmodal: () => void
 }
 
-export function Cta({waitlistmodal}: Readonly<CtaProps>) {
+export function Cta() {
   return (
     <section className="mx-auto max-w-6xl px-4 pb-24 sm:px-6">
       <div className="relative overflow-hidden rounded-3xl border border-border bg-card px-6 py-16 text-center sm:px-12">
@@ -25,13 +24,6 @@ export function Cta({waitlistmodal}: Readonly<CtaProps>) {
             their data to a SaaS. Deploy Feedbase in minutes.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <button
-              onClick={waitlistmodal}
-              className="inline-flex items-center gap-2 rounded-xl cursor-pointer bg-primary/90 px-5 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary"
-            >
-              Join our waitlist
-              <MailIcon className="size-4" />
-            </button>
             <a
               href="https://github.com/breadddevv/feedbase"
               target="_blank"

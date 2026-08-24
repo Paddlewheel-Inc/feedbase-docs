@@ -5,11 +5,7 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-interface WaitlistProps {
-  waitlistmodal: () => void;
-}
-
-export function Hero({ waitlistmodal }: Readonly<WaitlistProps>) {
+export function Hero() {
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -53,14 +49,8 @@ export function Hero({ waitlistmodal }: Readonly<WaitlistProps>) {
             Your data stays yours.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3 sm:flex-row">
-            <button
-              className="px-5 py-3 rounded-xl bg-primary/90 cursor-pointer font-semibold flex gap-2 justify-center text-primary-foreground hover:bg-primary transition-colors"
-              onClick={waitlistmodal}
-            >
-              Join our waitlist <MailIcon className="size-4 my-auto" />
-            </button>
             <button className="bg-white/5 backdrop-blur-lg cursor-pointer text-foreground px-5 py-3 rounded-xl hover:backdrop-blur-2xl transition-all border border-border hover:border-white/25 hover:bg-white/10">
-              <Link href="https://github.com/breadddevv/feedbase" className="flex gap-1.5">
+              <Link href="https://github.com/Paddlewheel-Inc/feedbase" className="flex gap-1.5">
                 <TbBrandGithubFilled className="size-4 my-auto" />
                 Star on GitHub
               </Link>
@@ -69,7 +59,7 @@ export function Hero({ waitlistmodal }: Readonly<WaitlistProps>) {
           <div className="hidden mt-6 md:flex items-center gap-3 rounded-lg border border-border bg-card/80 backdrop-blur-2xl px-4 py-2.5 font-mono text-sm">
             <code className="text-muted-foreground">
               <span className="text-foreground">$</span> git clone
-              https://github.com/breadddevv/feedbase
+              https://github.com/Paddlewheel-Inc/feedbase
             </code>
             {copied ? (
               <CheckIcon className="text-green-500 w-4 shrink-0" />
@@ -79,7 +69,7 @@ export function Hero({ waitlistmodal }: Readonly<WaitlistProps>) {
                 onClick={() => {
                   setCopied(true);
                   navigator.clipboard.writeText(
-                    "git clone https://github.com/breadddevv/feedbase",
+                    "git clone https://github.com/Paddlewheel-Inc/feedbase",
                   );
                 }}
               />

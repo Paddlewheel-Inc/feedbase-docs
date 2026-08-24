@@ -5,7 +5,7 @@ import { TbBrandGithubFilled, TbBrandX } from "react-icons/tb";
 import Image from "next/image";
 import { FaDiscord } from "react-icons/fa";
 
-const GITHUB_URL = "https://github.com/breadddevv/feedbase";
+const GITHUB_URL = "https://github.com/Paddlewheel-Inc/feedbase";
 
 const footerLinks = {
   product: [
